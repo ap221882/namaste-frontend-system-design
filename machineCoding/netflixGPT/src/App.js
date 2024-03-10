@@ -1,13 +1,10 @@
+import Body from "./components/Body";
 import "./styles/global.css";
 
 import React from "react";
 
 const App = () => {
-  return (
-    <div>
-      <h3 className="text-red-500">App</h3>
-    </div>
-  );
+  return <Body />;
 };
 
 export default App;
